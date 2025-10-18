@@ -71,7 +71,7 @@ Then visit:
 
 🌐 Deployment
 
-The app can be deployed on Render, Railway, or Heroku using the included Procfile.
+The app has been deployed to Railway at https://web-production-65090.up.railway.app/me
 
 🧠 Author
 
