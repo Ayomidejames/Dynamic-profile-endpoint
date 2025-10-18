@@ -58,16 +58,6 @@ python app.py
 Then visit:
 👉 http://127.0.0.1:5000/me
 
-🌐 Deployment
-
-The app has been deployed to Railway at https://web-production-65090.up.railway.app/me
-
-🧠 Author
-
-Name: Adefioye Ayomide
-Track: Backend Development
-Slack Username: ayomide_adefioye
-
 📎 Links
 
 🗂️ GitHub Repo:  https://github.com/Ayomidejames/Flask-profile-endpoint
