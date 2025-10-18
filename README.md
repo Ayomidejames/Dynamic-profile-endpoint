@@ -7,14 +7,13 @@ The goal is to build a dynamic Flask API endpoint that returns a JSON response c
 🚀 Features
 
 A single GET endpoint (/api/profile/<username>)
+1. Returns a JSON response with:
 
-Returns a JSON response with:
+2. status
 
-status
+3. Timestamp in iso format
 
-utc_time (ISO 8601 format, ending with Z)
-
-user information includiing:
+4. user information includiing:
 * email
 * name
 * tech stack
