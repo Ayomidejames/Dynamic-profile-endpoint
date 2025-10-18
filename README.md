@@ -1,4 +1,4 @@
-🧙‍♂️ Backend Wizards — Stage 0: Dynamic Profile Endpoint
+🧙‍♂️ FLASK PROFILE ENDPOINT
 📋 Overview
 
 This is the Stage 0 Task for the Backend Wizards Internship.
@@ -10,19 +10,14 @@ A single GET endpoint (/api/profile/<username>)
 
 Returns a JSON response with:
 
-slack_name
-
-current_day
+status
 
 utc_time (ISO 8601 format, ending with Z)
 
-track
-
-github_file_url
-
-github_repo_url
-
-status_code (200)
+user information includiing:
+* email
+* name
+* tech stack
 
 🧩 Example Response
 {
@@ -73,8 +68,7 @@ python app.py
 
 
 Then visit:
-👉 http://127.0.0.1:5000/api/profile/
-<your_slack_name>
+👉 http://127.0.0.1:5000/me
 
 🌐 Deployment
 
