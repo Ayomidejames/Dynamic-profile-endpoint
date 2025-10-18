@@ -26,13 +26,14 @@ status_code (200)
 
 🧩 Example Response
 {
-  "slack_name": "Adefioye Ayomide",
-  "current_day": "Wednesday",
-  "utc_time": "2025-10-15T18:30:00Z",
-  "track": "Backend",
-  "github_file_url": "https://github.com/your-username/backend-wizards-stage0/blob/main/app.py",
-  "github_repo_url": "https://github.com/your-username/backend-wizards-stage0",
-  "status_code": 200
+  "fact": "Most cats adore sardines.",
+  "status": "success",
+  "timestamp": "2025-10-18T16:15:17.713Z",
+  "user": {
+    "email": "adefioye.ayomidej@gmail.com",
+    "name": "Adefioye Ayomide James",
+    "stack": "Python/Flask"
+  }
 }
 
 🛠️ Tech Stack
@@ -47,7 +48,7 @@ Werkzeug — Flask’s built-in utility library
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/backend-wizards-stage0.git
+git clone https://github.com/Ayomidejames/Flask-profile-endpoint.git
 cd backend-wizards-stage0
 
 2️⃣ Create a Virtual Environment
@@ -87,6 +88,6 @@ Slack Username: ayomide_adefioye
 
 📎 Links
 
-🗂️ GitHub Repo: https://github.com/your-username/backend-wizards-stage0
+🗂️ GitHub Repo:  https://github.com/Ayomidejames/Flask-profile-endpoint
 
 📄 Main File: app.py
