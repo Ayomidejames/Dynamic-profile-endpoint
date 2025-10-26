@@ -8,10 +8,10 @@ The goal is to build a dynamic Flask API endpoint that returns a JSON response c
 
 🚀 Features
 A single GET endpoint (/me)
-1. Returns a JSON response with:
-2. status
-3. Timestamp in iso format
-4. user information includiing:
+Returns a JSON response with:
+1. Status
+2. Timestamp in iso format
+3. user information includiing:
 * email
 * name
 * tech stack
