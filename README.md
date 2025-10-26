@@ -1,8 +1,10 @@
 🧙‍♂️ FLASK PROFILE ENDPOINT
 
+
 📋 Overview
 This is the Stage 0 Task for the Backend Wizards Internship.
 The goal is to build a dynamic Flask API endpoint that returns a JSON response containing profile information and computes the current datetime in UTC.
+
 
 🚀 Features
 A single GET endpoint (/me)
@@ -14,23 +16,36 @@ A single GET endpoint (/me)
 * name
 * tech stack
 
+
 🧩 Example Response
 {
   "fact": "Most cats adore sardines.",
+  
   "status": "success",
+  
   "timestamp": "2025-10-18T16:15:17.713Z",
+  
   "user": {
+  
     "email": "adefioye.ayomidej@gmail.com",
+    
     "name": "Adefioye Ayomide James",
+    
     "stack": "Python/Flask"
+    
   }
 }
 
 🛠️ Tech Stack
+
 Python 3.x
+
 Flask — for creating the web server
+
 Flask-CORS — to handle cross-origin requests
+
 Werkzeug — Flask’s built-in utility library
+
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
